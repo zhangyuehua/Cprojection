@@ -54,7 +54,8 @@ void writelines(char *lineptr[], int nlines)
    for(i = 0; i < nlines; i++)
 	   printf("%s\n", lineptr[i]);
 }
-  
+
+/*input the line*/
 int getlines(char s[], int lim)
 {
 	int c, i;
